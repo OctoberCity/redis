@@ -20,7 +20,7 @@
   |DECRBY|DECRBY KEY-NAME : 将键存储值减number|
   |INCRBYFLOAT|INCRBYFLOAT KEY-NAME : 将键存储值加number(浮点数)，version>2.6可用|
 
-  - <a name='#list'>list</a>
+  - <a name='list'>list</a>
  
   |命令|用例以及描述|
   |------ | -------- |
