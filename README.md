@@ -20,7 +20,7 @@
   |DECRBY|DECRBY KEY-NAME : 将键存储值减number|
   |INCRBYFLOAT|INCRBYFLOAT KEY-NAME : 将键存储值加number(浮点数)，version>2.6可用|
 
-  - <a href='#list'>list</a>
+  - <a name='#list'>list</a>
  
   |命令|用例以及描述|
   |------ | -------- |
@@ -33,7 +33,7 @@
   |LTRIM|LTRIM KEY-NAM  START END:修建list只保留移量在start以及end之间的所有元素，包括start和end|
 
   列表之间也可以进行数据转移，主要是使用以下几个命令
-  
+
   |命令|用例以及描述|
   |------ | -------- |
   |RPUSH| RPUSH KEY-NAME VALUE [ VALUE .....]: 将一个或多个值推入list的右端|
